@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Oswald";
+  src: url(/Rainydays/Oswald-Regular.ttf);
+}
+h1 {
+  font-family: "Oswald";
+  text-align: center;
+}
+h2 {
+  font-family: "Oswald";
+  text-align: center;
+}
+h3 {
+  font-family: "Oswald";
+  text-align: center;
+}
+p {
+  font-family: "Oswald";
+  text-align: center;
+}
+body {
+  font-family: "Oswald", Roboto, Tahoma, sans-serif;
+  min-height: 100vh;
+  margin: 0px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  text-align: center;
+}
