@@ -27,7 +27,7 @@ nav a:hover {
 }
 
 .frontpage {
-  background-image: url("/Rainydays/img/frontpage.jpg");
+  background-image: url("/img/frontpage.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 100%;
@@ -37,7 +37,7 @@ nav a:hover {
 }
 
 .sale {
-  background-image: url("/Rainydays/img/skisale.jpg");
+  background-image: url("/img/skisale.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
