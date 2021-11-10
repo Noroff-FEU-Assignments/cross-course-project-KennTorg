@@ -102,7 +102,7 @@ footer {
   margin: 5px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 600px) {
   nav {
     display: inline-block;
     position: static;
@@ -114,11 +114,28 @@ footer {
 }
 
 @media (max-width: 600px) {
-  .logo {
-    display: center;
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background: linear-gradient(black, #163143);
+    color: #fff;
+    flex-wrap: wrap;
+  }
+
+  .logo-container {
+    flex: 1 1 100%;
+  }
+
+  .logobot {
+    display: none;
   }
 
   .search {
     display: none;
+  }
+
+  footer {
+    flex-direction: column;
   }
 }
