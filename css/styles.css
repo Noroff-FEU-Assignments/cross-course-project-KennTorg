@@ -1,6 +1,12 @@
 /* ------- I AM FUCKED NOW ANYWAYS, SO MIGHT ASWEL TRY! --------*/
 /* ((((((((((((((STARTING OVER))))))))))))) */
 /* ¤¤¤¤¤¤¤¤¤¤ FONTS ¤¤¤¤¤¤¤¤¤¤ */
+@font-face {
+  font-family: Yuijiboku, Roboto, Verdana, Arial, Geneva, Arial, Helvetica,
+    sans-serif;
+  src: url(../yujiboku.ttf);
+  src: url(../Roboto.ttf);
+}
 body {
   font-family: "roboto", helvetica, arial;
 }
