@@ -13,22 +13,11 @@
   width: 500px;
 }
 
-.woman {
-  height: 500px;
-  width: 500px;
-}
-
-.man {
-  height: 500px;
-  width: 500px;
-}
-
-.yellowcoat {
-  height: 500px;
-  width: 500px;
-}
-
 .logobot {
   max-width: 200px;
   padding: 10px;
+}
+
+.get-inspired img {
+  width: 100%;
 }
