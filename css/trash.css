@@ -1,13 +1,10 @@
-/* %¤# IM NOT SURE I SHOULD MAKE THESE LINES. BUT I DID IT ANYWAY! #¤%
-              --- helps with the scrolling - SCROLLING!!!--- */
-
 /* ¤¤¤###### Header ######¤¤¤ */
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  background: linear-gradient(black, #163143);
+  background: linear-gradient(#000, #163143);
   color: #fff;
 }
 
@@ -60,7 +57,7 @@ nav a {
   padding: 5px;
 }
 
-nav a:hover {
+.main-nav:hover {
   text-decoration: underline;
 }
 
