@@ -1,194 +1,195 @@
-/* ------- I AM FUCKED NOW ANYWAYS, SO MIGHT ASWEL TRY! --------*/
-/* ((((((((((((((STARTING OVER))))))))))))) */
 /* ¤¤¤¤¤¤¤¤¤¤ FONTS ¤¤¤¤¤¤¤¤¤¤ */
-@font-face {
-  font-family: Yujiboku;
-  src: url(../yujiboku.ttf);
-}
-
-@font-face {
-  font-family: RoadRage, Roboto, sans-serif, Verdana;
-  src: url(../RoadRage-Regular.ttf);
-}
-
 body {
-  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .home h1 {
-  font-family: "Yujiboku", Verdana, Geneva;
+    font-family: "Yujiboku", Verdana, Geneva;
+}
+
+/* ---- Body ---- */
+body,
+html {
+    min-height: 100vh;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}
+
+main {
+    max-width: 850px;
+    margin: 0 auto;
 }
 
 /* ¤¤¤¤¤¤¤¤¤¤ HEADER ¤¤¤¤¤¤¤¤¤ */
 .page-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: linear-gradient(black, #163143);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(black, #163143);
 }
 
 header a {
-  color: #fff;
-  text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
 
 .logo {
-  max-width: 100px;
-  margin: 10px;
+    max-width: 100px;
+    margin: 10px;
 }
 
 nav a:hover {
-  text-decoration: underline;
-  color: #fff;
+    text-decoration: underline;
+    color: #fff;
 }
 
 header i:hover {
-  color: lightgray;
+    color: lightgray;
 }
 
 /* ¤¤¤¤¤¤¤ HOME MAIN ¤¤¤¤¤¤¤*/
 
 .home main {
-  max-width: 800px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Welcome */
 
 .home h1 {
-  background-image: url("/img/frontpage.jpg");
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 500px;
-  text-align: center;
-  font-size: 3em;
+    background-image: url("/img/frontpage.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    font-size: 3em;
 }
 
 /* Push the Limit! */
 
 .push-the-limit h2 {
-  font-family: "Yujiboku", Verdana, Geneva;
-  font-size: 2em;
-  text-align: center;
+    font-family: "Yujiboku", Verdana, Geneva;
+    font-size: 2em;
+    text-align: center;
 }
 
 .push-the-limit p {
-  text-align: center;
+    text-align: center;
 }
 
 /* Get Inspired! */
 
 h3 {
-  font-family: "Roboto", "Open Sans", "Helvetica Neue", "sans-serif";
+    font-family: "Roboto", "Open Sans", "Helvetica Neue", "sans-serif";
 }
 
 .get-inspired {
-  background: lightgray;
-  text-align: center;
+    background: lightgray;
+    text-align: center;
 }
 
 .img-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 15px;
 }
 
 .inspired-img {
-  flex: 1;
-  min-width: 250px;
+    flex: 1;
+    min-width: 250px;
 }
 
 /* ¤¤¤¤¤¤¤ FOOTER ¤¤¤¤¤¤¤¤*/
 footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  background: linear-gradient(#163143, black);
-  color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(#163143, black);
+    color: #fff;
 }
 
 .social {
-  text-align: center;
+    text-align: center;
 }
 .social a {
-  color: #fff;
+    color: #fff;
 }
 
 /* ¤¤¤¤¤¤ SHOP ¤¤¤¤¤¤ */
 /* SHOP MAIN */
 .shop-main h1 {
-  font-family: RoadRage;
-  font-size: 3em;
-  display: flex;
-  justify-content: center;
+    font-family: RoadRage;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
 }
 
 .shop-main p {
-  font-size: 1.7em;
+    font-size: 1.7em;
 }
 
 .shop-nav-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 3em;
-  padding-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    padding-bottom: 2em;
 }
 
 .shop-nav-container a {
-  color: #000;
-  text-decoration: none;
-  font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .shop-nav-container a:hover {
-  color: #000;
-  text-decoration: underline;
-  font-size: 20px;
+    color: #000;
+    text-decoration: underline;
+    font-size: 20px;
 }
 
 .product-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 .shop-img {
-  flex: 1;
-  min-width: 250px;
+    flex: 1;
+    min-width: 250px;
 }
 
 /* ¤¤¤¤¤¤¤ ABOUT ¤¤¤¤¤¤¤ */
 .about h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bolder;
-  font-size: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
 }
 
 .about {
-  text-align: center;
+    text-align: center;
 }
 
 /* ¤¤¤¤¤¤¤ MEDIA QUERIES ¤¤¤¤¤¤ */
 @media (max-width: 800px) {
-  .search {
-    display: none;
-  }
-  .contact {
-    display: none;
-  }
+    .search {
+        display: none;
+    }
+    .contact {
+        display: none;
+    }
 
-  .social {
-    display: none;
-  }
+    .social {
+        display: none;
+    }
 }
