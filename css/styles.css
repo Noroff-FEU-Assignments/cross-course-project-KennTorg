@@ -51,6 +51,36 @@ header i:hover {
 .secondary-nav {
     margin: 5px;
 }
+
+/* ----- NAV ------ */
+.nav-container label {
+    padding: 10px;
+}
+
+/* ---- Hamburger ---- */
+nav,
+#hamburger-checkbox {
+    display: none;
+}
+
+.nav-container {
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    right: 0px;
+}
+
+nav a {
+    padding: 20px;
+    display: inline-block;
+}
+
+#hamburger-checkbox:checked ~ nav {
+    display: block;
+}
+
 /* ¤¤¤¤¤¤¤ HOME MAIN ¤¤¤¤¤¤¤*/
 
 .home main {
@@ -182,9 +212,16 @@ footer {
 }
 
 .mens-jacket {
-    column-count: 3;
+    display: flex;
+    flex-wrap: wrap;
     gap: 10px;
-    margin: 50px 0 80px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.mens-jackets-container {
+    flex: 1;
+    min-width: 250px;
 }
 
 /* ¤¤¤¤¤¤ PRODUCT ¤¤¤¤¤¤¤*/
@@ -304,6 +341,17 @@ label input {
 }
 
 /* ¤¤¤¤¤¤¤ MEDIA QUERIES ¤¤¤¤¤¤ */
+@media (min-width: 800px) {
+    nav {
+        display: block;
+        position: static;
+    }
+
+    .nav-container label {
+        display: none;
+    }
+}
+
 @media (max-width: 800px) {
     .search {
         display: none;
@@ -319,6 +367,14 @@ label input {
         column-count: 2;
         gap: 10px;
         margin: 50px 0 80px;
+    }
+
+    nav {
+        background-color: #fff;
+    }
+
+    nav a {
+        color: #000;
     }
 }
 
