@@ -178,13 +178,12 @@ footer {
 
 .mens-jackets-container img {
     max-width: 100%;
-    height: 250px;
+    height: 200px;
 }
 
 .mens-jacket {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    column-count: 3;
+    gap: 10px;
     margin: 50px 0 80px;
 }
 
@@ -315,5 +314,18 @@ label input {
 
     .social {
         display: none;
+    }
+    .mens-jacket {
+        column-count: 2;
+        gap: 10px;
+        margin: 50px 0 80px;
+    }
+}
+
+@media (max-width: 400px) {
+    .mens-jacket {
+        column-count: 1;
+        gap: 10px;
+        margin: 50px 0 80px;
     }
 }
