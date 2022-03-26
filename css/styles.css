@@ -354,11 +354,6 @@ label input {
     .social {
         display: none;
     }
-    .mens-jacket {
-        column-count: 2;
-        gap: 10px;
-        margin: 50px 0 80px;
-    }
 
     nav {
         background-color: #fff;
