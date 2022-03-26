@@ -81,15 +81,7 @@ nav a {
     display: block;
 }
 
-/* ¤¤¤¤¤¤¤ HOME MAIN ¤¤¤¤¤¤¤*/
-
-.home main {
-    max-width: 800px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+/* ¤¤¤¤¤¤¤ HOME ¤¤¤¤¤¤¤*/
 
 /* Welcome */
 
@@ -197,7 +189,6 @@ footer {
 /* ¤¤¤¤¤¤¤ MEN ¤¤¤¤¤¤¤¤*/
 .product-nav a {
     font-size: 1.5rem;
-    color: #000;
     text-decoration: none;
 }
 
@@ -375,6 +366,8 @@ label input {
 
     nav a {
         color: #000;
+        font-weight: bold;
+        padding: 50px;
     }
 }
 
@@ -383,9 +376,5 @@ label input {
         column-count: 1;
         gap: 10px;
         margin: 50px 0 80px;
-    }
-
-    .mens-jackets-container {
-        justify-content: center;
     }
 }
