@@ -32,10 +32,11 @@
                 </a>
             </div>
             <div class="nav-container">
-                <input type ="checkbox" id="hamburger-checkbox" class="hamburger-checkbox"/>
-        <label for="hamburger-checkbox"><i class="fas fa-bars" style = "color: #fff"></i></i></label>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
                 <nav class="links">
-                    <ul>
+                    <ul class="nav-ul" id="nav-ul">
                         <a href="index.html">Home</a>
                         <a href="men.html">Men</a>
                         <a href="woman.html">Woman</a>
@@ -53,25 +54,29 @@
             </div>
         </header>
         <main class="home">
-            <div class="welcome-container">
-                <h1>Welcome to Rainydays</h1>
-            </div>
+            <div class="welcome-container"></div>
             <section class="push-the-limit">
-                <h2>Push the limit!</h2>
+                <h1>PUSH THE LIMIT</h1>
                 <p>Test your comfort zone with Rainydays.</p>
                 <p>Ultimate clothing for your limits.</p>
             </section>
             <section class="get-inspired">
                 <h3>Get Inspired</h3>
                 <div class="img-container">
-                    <img src="/img/man.jpg" class="inspired-img" />
-                    <img src="/img/woman.jpg" class="inspired-img" />
-                    <img src="/img/yellowcoat.jpg" class="inspired-img" />
+                    <img src="/img/man.jpg" class="inspired-img" alt="man in a red jacket" />
+                    <img src="/img/woman.jpg" class="inspired-img" alt="woman in a blue jacket" />
+                    <img
+                        src="/img/yellowcoat.jpg"
+                        class="inspired-img"
+                        alt="girl in a yellow raincoat"
+                    />
                 </div>
             </section>
         </main>
         <footer>
-            <img src="img/logo.png" class="logo" />
+            <a href="index.html">
+                <img src="img/logo.png" class="logo" alt="rainydays logo" />
+            </a>
             <div class="contact">
                 <p>Contact us:</p>
                 <p>+00 0000 0000</p>
@@ -88,5 +93,7 @@
                 </div>
             </div>
         </footer>
+        <script src="js/script.js"></script>
+        <script src="js/contact.js"></script>
     </body>
 </html>

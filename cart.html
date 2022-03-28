@@ -22,10 +22,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Rainydays!" />
         <link href="css/styles.css" rel="stylesheet" />
-        <title>Rainydays | Home</title>
-        <script>
-            "script.js";
-        </script>
+        <title>Rainydays | Cart</title>
     </head>
     <body>
         <header class="page-header">
@@ -35,10 +32,11 @@
                 </a>
             </div>
             <div class="nav-container">
-                <input type ="checkbox" id="hamburger-checkbox" class="hamburger-checkbox"/>
-        <label for="hamburger-checkbox"><i class="fas fa-bars" style = "color: #fff"></i></i></label>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
                 <nav class="links">
-                    <ul>
+                    <ul class="nav-ul" id="nav-ul">
                         <a href="index.html">Home</a>
                         <a href="men.html">Men</a>
                         <a href="woman.html">Woman</a>
@@ -67,7 +65,9 @@
             </div>
         </main>
         <footer>
-            <img src="img/logo.png" class="logo" />
+            <a href="index.html">
+                <img src="img/logo.png" class="logo" alt="rainydays logo" />
+            </a>
             <div class="contact">
                 <p>Contact us:</p>
                 <p>+00 0000 0000</p>
@@ -84,5 +84,7 @@
                 </div>
             </div>
         </footer>
+        <script src="js/script.js"></script>
+        <script src="js/contact.js"></script>
     </body>
 </html>

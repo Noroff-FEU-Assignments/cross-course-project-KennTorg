@@ -1,10 +1,13 @@
 /* ¤¤¤¤¤¤¤¤¤¤ FONTS ¤¤¤¤¤¤¤¤¤¤ */
-body {
-    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+body p,
+.nav-ul {
+    font-family: "Exo 2", sans-serif;
 }
 
-.home h1 {
-    font-family: "Yujiboku", Verdana, Geneva;
+h1,
+h2,
+h3 {
+    font-family: "Bebas Neue", cursive;
 }
 
 /* ---- Body ---- */
@@ -100,8 +103,7 @@ nav a {
 
 /* Push the Limit! */
 
-.push-the-limit h2 {
-    font-family: "Yujiboku", Verdana, Geneva;
+.push-the-limit h1 {
     font-size: 2rem;
     text-align: center;
 }
@@ -112,16 +114,11 @@ nav a {
 }
 
 /* Get Inspired! */
-
-h3 {
-    font-family: "Roboto", "Open Sans", "Helvetica Neue", "sans-serif";
-}
-
 .get-inspired {
     background: lightgray;
     text-align: center;
     padding: 10px;
-    margin-bottom: 20px;
+    margin: 60px 0 40px;
 }
 
 .img-container {
@@ -292,7 +289,7 @@ footer {
 
 .about img {
     max-width: 100%;
-    margin: 20px;
+    margin: 20px 0 20px;
 }
 
 /* ¤¤¤¤¤¤ CONTACT ¤¤¤¤¤¤¤ */
@@ -331,6 +328,25 @@ label input {
     margin-top: 2px;
 }
 
+/* !"%!/%&!/! EXPERIMENT HAMBURGER !/!"!)#U!( */
+.hamburger {
+    background-color: transparent;
+    border: 0;
+    display: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hamburger:focus {
+    outline: none;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* ¤¤¤¤¤¤¤ MEDIA QUERIES ¤¤¤¤¤¤ */
 @media (min-width: 800px) {
     nav {
@@ -364,12 +380,18 @@ label input {
         font-weight: bold;
         padding: 50px;
     }
-}
 
-@media (max-width: 400px) {
-    .mens-jacket {
-        column-count: 1;
-        gap: 10px;
-        margin: 50px 0 80px;
+    /*hamburger experiment */
+    .nav-ul {
+        display: none;
+        flex-direction: column;
+    }
+
+    .nav-ul.show {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
     }
 }
