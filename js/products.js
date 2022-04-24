@@ -32,7 +32,7 @@ async function getProducts(url) {
 }
 getProducts(baseUrl);
 
-const detailContainer = document.querySelector("product-detail");
+const detailContainer = document.querySelector("products");
 
 const queryString = document.location.search;
 
@@ -41,10 +41,8 @@ const params = new URLSearchParams(queryString);
 const id = params.get("id");
 
 console.log(id);
-
-const url =
-    "https://pineapplepizza.no/rainydays/wp-json/wc/v3/products?consumer_key=ck_ac9c2d0d025b348410552aea8ec0e6e11974a334&consumer_secret=cs_d8922f0144f8992feb05dd6ccdea1ae9d510ce69" +
-    id;
+/* im not so sure which url i should be calling here*/
+const url = "" + id;
 
 console.log(url);
 
